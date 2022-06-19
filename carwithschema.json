@@ -1,0 +1,16 @@
+{
+    "schema": {
+    "type": "struct", "optional": false, "version": 1, "fields": [
+    { "field": "make", "type": "string", "optional": true },
+    { "field": "model", "type": "string", "optional": true },
+    { "field": "color", "type": "string", "optional": true },
+    { "field": "owner", "type": "string", "optional": true }]
+    },
+    "payload": {
+    
+    "make": "Audi",
+    "model": "Q7",
+    "color": "blue",
+    "owner": "Anand"
+    }
+}
