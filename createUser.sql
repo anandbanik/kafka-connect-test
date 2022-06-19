@@ -1,0 +1,20 @@
+CREATE USER 'kafka'@'%';
+ALTER USER 'kafka'@'%'
+IDENTIFIED BY 'Welc0me@123' ;
+GRANT Alter ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Create ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Create view ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Delete ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Drop ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Grant option ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Index ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Insert ON `kafka-test`.* TO 'kafka'@'%';
+GRANT References ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Select ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Show view ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Trigger ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Update ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Alter routine ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Create routine ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Create temporary tables ON `kafka-test`.* TO 'kafka'@'%';
+GRANT Execute ON `kafka-test`.* TO 'kafka'@'%';

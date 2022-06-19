@@ -1,0 +1,1 @@
+kafka-topics --create --zookeeper zoo1.sandbox.com:2181 --replication-factor 1 --partitions 1 --topic mysql-integrate
